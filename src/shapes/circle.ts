@@ -16,27 +16,33 @@ export class Circle {
         return `<circle cx="${this.center.x}" cy="${this.center.y}" r="${this.radius}" fill="${this.style.fill}" stroke="${this.style.stroke}" stroke-width="${this.style.strokeWidth}" opacity="${this.style.opacity}"/>`;
     }
 
-    setCenter(newCenter: Point): void {
+    setCenter(newCenter: Point): string {
         this.center = newCenter;
+        return this.toSVG();
     }
 
-    setRadius(newRadius: number): void {
+    setRadius(newRadius: number): string {
         this.radius = newRadius;
+        return this.toSVG();
     }
 
-    setStroke(newStroke: string): void {
+    setStroke(newStroke: string): string {
         this.style.stroke = newStroke;
+        return this.toSVG();
     }
 
-    setFill(newFill: string): void {
+    setFill(newFill: string): string {
         this.style.fill = newFill;
+        return this.toSVG();
     }
 
-    setStrokeWidth(newStrokeWidth: number): void {
+    setStrokeWidth(newStrokeWidth: number): string {
         this.style.strokeWidth = newStrokeWidth;
+        return this.toSVG();
     }
 
-    setOpacity(newOpacity: number): void {
+    setOpacity(newOpacity: number): string {
         this.style.opacity = newOpacity;
+        return this.toSVG();
     }
 }
