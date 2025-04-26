@@ -1,21 +1,24 @@
 {
   "name": "dotplot",
-  "version": "0.1.0",
-  "description": "Geometric Diagram Language for JavaScript",
-  "main": "dist/dotplot.js",
-  "module": "src/index.js",
+  "version": "1.0.0",
+  "description": "Geometry Diagram Renderer",
+  "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "build": "rollup -c",
-    "dev": "jest --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["diagram", "geometry", "svg", "visualization"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakhadib/dotplot.git"
+  },
+  "keywords": [
+    "geometry",
+    "diagrams",
+    "dotplot"
+  ],
+  "author": "sakhadib",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
-    "esm": "^3.2.25",
-    "jest": "^27.2.0",
-    "rollup": "^2.56.2"
-  }
+  "bugs": {
+    "url": "https://github.com/sakhadib/dotplot/issues"
+  },
+  "homepage": "https://github.com/sakhadib/dotplot#readme"
 }
