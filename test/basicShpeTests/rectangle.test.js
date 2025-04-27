@@ -1,4 +1,4 @@
-import { Rectangle } from '../src/shapes/rectangle.js';
+import { Rectangle } from '../../src/shapes/rectangle.js';
 
 describe('Rectangle', () => {
   test('creates default rectangle', () => {

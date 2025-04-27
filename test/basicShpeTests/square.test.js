@@ -1,4 +1,4 @@
-import { Square } from '../src/shapes/square.js';
+import { Square } from '../../src/shapes/square.js';
 
 describe('Square', () => {
   test('creates default square', () => {

@@ -1,4 +1,4 @@
-import { Rhombus } from '../src/shapes/rhombus.js';
+import { Rhombus } from '../../src/shapes/rhombus.js';
 
 describe('Rhombus', () => {
   test('creates default rhombus', () => {

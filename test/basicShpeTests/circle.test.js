@@ -1,4 +1,4 @@
-import { Circle } from '../src/shapes/circle.js';
+import { Circle } from '../../src/shapes/circle.js';
 
 describe('Circle', () => {
   test('creates SVG circle', () => {
